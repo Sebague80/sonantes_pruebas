@@ -1307,30 +1307,10 @@ async function cambiarPassword() {
     errEl.textContent = error.message;
   }
 }
-
-
-
-
-
-
-
-async 
-
 function confirmarLogout() {
   if(confirm('¿Seguro que querés cerrar sesión?')) logout();
 }
 
-
-
-
-
-
-
-async 
-
-function confirmarLogout() {
-  if(confirm('¿Seguro que querés cerrar sesión?')) logout();
-}
 
 async function logout() {
   await sb.auth.signOut();
